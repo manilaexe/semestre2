@@ -11,9 +11,9 @@ int main(){
 	inc(s);
 
 	while(s!=0){
-        printf("\nInserire un valore intero per l'incremento (0 per terminare): ");	
-        scanf("%d",&s);	
-        inc(s);	
+	        printf("\nInserire un valore intero per l'incremento (0 per terminare): ");	
+	        scanf("%d",&s);	
+	        inc(s);	
 	}
 
 	printf("\nValore del contatore: %d",getValue());
