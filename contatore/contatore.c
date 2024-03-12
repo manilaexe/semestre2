@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int count=0;
+int static count=0;
 
 void reset(){
 	count=0;
