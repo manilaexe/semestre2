@@ -2,33 +2,22 @@
 #include<stdlib.h>
 #include"contatore.h"
 
-#define N 10
-
-int count=0;
-
-void reset(){
-	count=0;
-}
-
-void inc(){
-	count++;
-}
-
-int getValue(){
-	return count;
-}
-
 int main(){
 
+ 	int s;
 	reset();
-	printf("\nValore del contatore (reset): %d",count);		
-	
-	for(int i=0; i<N; i++){
-		inc();
-		printf("\nValore del contatore: %d",getValue());		
+	printf("\nInserire un valore intero per l'incremento (0 per terminare): ");	
+    	scanf("%d",&s);	
+	inc(s);
+
+	while(s!=0){
+        printf("\nInserire un valore intero per l'incremento (0 per terminare): ");	
+        scanf("%d",&s);	
+        inc(s);	
 	}
 
-	printf("\nProgramma terminato...");
+	printf("\nValore del contatore: %d",getValue());
+	printf("\nProgramma terminato...\n");
 
 	return 0;
 }
