@@ -1,3 +1,3 @@
 void reset();
-void inc();
+void inc(int k);
 int getValue();
