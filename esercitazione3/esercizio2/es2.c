@@ -1,3 +1,7 @@
+// !!!!!!!!!!!NON INIZIATO !!!!!!!!!!! //
+
+
+
 /*
 Dato un vettore di reali di dimensione DIM, si inseriscano k elementi letti da tastiera (k <= DIM). Si utilizzi 0 per terminare l’inserimento. Ordinare gli elementi del vettore in senso crescente utilizzando l’algoritmo Naive Sort.
 Si stampi infine il vettore ordinato. 
